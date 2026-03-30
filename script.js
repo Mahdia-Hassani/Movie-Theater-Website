@@ -1,3 +1,5 @@
+window.onload = function () {
+
 // Part 1: Login
 
 let username = prompt("Enter username:");
@@ -12,8 +14,15 @@ if ((username === "admin" || username === "guest") && password === "0000") {
     access = "limited";
   }
   alert("Access: " + access);
+
+  document.body.style.display = "block";
+
 } else {
-  alert("Invalid login");
+  alert("Access Denied ❌");
+
+  document.body.innerHTML = "<h1 style='color:red; text-align:center;'>Access Denied ❌</h1>";
+  document.body.style.display = "block";
+
   throw new Error("Stop");
 }
 
@@ -84,3 +93,6 @@ alert(
   "\nTotal: $" + finalTotal.toFixed(2) +
   "\nEach: $" + each.toFixed(2)
 );
+
+document.body.style.display = "block";
+};
