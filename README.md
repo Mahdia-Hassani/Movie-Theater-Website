@@ -1,11 +1,14 @@
-# Mahdia Cinema 🎬
+#  Mahdia Cinema
 
-A simple movie theater interface built with pure HTML and CSS. This project presents a visual layout that simulates a cinema experience, with film sections and animated elements for interactive browsing.
+A simple movie theater web app.
 
----
-<!--Test PR-->
+## Features
+- Login system
+- Movie selection (Standard, 3D, IMAX)
+- Snacks and discounts
+- Total price calculation
 
-## 🎥 Live Demo
+## Live
+https://mahdia-hassani.github.io/Movie-Theater-Website/
 
-Check the live version here:  
-👉 https://mahdia-hassani.github.io/Movie-Theater-Website/
+Made with ❤️ by Mahdia
